@@ -62,7 +62,15 @@
 }
 
 
-.container {
+.vantagens__container {
     background-color: #5d67f0;
     display: flex;
+}
+
+.vantagens__texto {
+    text-align: center;
+}
+
+.vantagens__texto h4 {
+    font-size: 2rem;
 }
