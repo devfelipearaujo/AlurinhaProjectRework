@@ -65,12 +65,45 @@
 .vantagens__container {
     background-color: #5d67f0;
     display: flex;
+    padding: 3% 5% ;
+}
+
+.vantagens__video {
+    width: 50%;
 }
 
 .vantagens__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: 50%;
+    color: #ffffff;
 }
 
-.vantagens__texto h4 {
+.vantagens__descricao {
+    flex-grow: 1;
+    /* line-height: 2rem; */
+}
+
+.vantagens__descricao p {
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+
+.vantagens__descricao h4 {
     font-size: 2rem;
+    margin: 5% 0;
+}
+
+.vantagens__btn {
+    font-size: 1.2rem;
+    color: #ffffff;
+    width: 80%;
+    padding: 20px 0;
+    cursor: pointer;
+    background-color: #f74e4e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px black;
 }
