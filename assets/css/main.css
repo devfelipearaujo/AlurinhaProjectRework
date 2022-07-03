@@ -106,7 +106,11 @@
     background-color: #f74e4e;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 4px 10px black;
+    box-shadow: 1px 2px 2px #272727;
+}
+
+.vantagens__btn:hover {
+    box-shadow: 5px 5px 10px black;
 }
 
 footer {
@@ -155,4 +159,43 @@ footer {
     text-decoration: none;
     color: #e4e4e4;
     margin-bottom: 0.8rem;
+}
+
+.rodape__patrocinadores {
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+.patrocinadores__box {
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato__box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__box2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.input__text {
+    outline: 0;
+    padding: 10px;
+    border: 1px solid rgb(93, 175, 104);
+    border-radius: 5px;
+}
+
+.footer__btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(93, 175, 104);
 }
