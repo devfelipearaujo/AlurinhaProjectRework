@@ -1,0 +1,87 @@
+
+footer {
+    background-color: #2a2d6b;
+    margin-top: 4%;
+}
+
+.rodape__principal__box {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.cursos h4 {
+    font-size: 1.4rem;
+    margin: 1em 0;
+    border-left: 4px solid;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.cursos__backend h4 {
+    color: #92f789d2;
+}
+
+.cursos__frontend h4 {
+    color: #89e1f7e0;
+}
+
+.cursos__frameworks h4 {
+    color: #8c5db3;
+}
+
+.cursos__dados h4 {
+    color: #e95b37;
+}
+
+.box__cursos {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.box__cursos a {
+    text-decoration: none;
+    color: #e4e4e4;
+    margin-bottom: 0.8rem;
+}
+
+.rodape__patrocinadores {
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+.patrocinadores__box {
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato__box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__box2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.input__text {
+    outline: 0;
+    padding: 10px;
+    border: 1px solid rgb(93, 175, 104);
+    border-radius: 5px;
+}
+
+.footer__btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(93, 175, 104);
+}
