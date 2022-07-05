@@ -31,6 +31,11 @@
     box-shadow: 2px 2px 2px #ccc;
 }
 
+.subject__item:hover {
+    cursor: pointer;
+    box-shadow: 5px 4px 4px #ccc;
+}
+
 .subject__item:nth-child(4n+1){
     margin-left: 0;
 }
@@ -57,7 +62,9 @@
     background-position-y: 10px;
     }
 
-.subject__item h3{
+.subject__item {
+    color: #000;
+    text-decoration: none;
     font-weight: bold;
 }
 
