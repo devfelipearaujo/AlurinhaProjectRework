@@ -90,3 +90,17 @@ footer {
     background-color: rgb(93, 175, 104);
 }
 
+@media (max-width: 768px) {
+    .rodape__principal__box {
+        flex-direction: column;
+    }
+
+    .patrocinadores__box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contato__box1 {
+        text-align: center;
+    }
+}
