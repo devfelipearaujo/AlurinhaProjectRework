@@ -119,3 +119,50 @@
 .vantagens__btn:hover {
     box-shadow: 5px 5px 10px black;
 }
+
+
+@media (max-width: 768px) {
+    .title {
+        text-align: center;
+    } 
+   
+    .subject__item {
+        width: 45%;
+        margin-left: 0;
+        font-size: 0.7rem;
+    }
+
+    .main__subjects {
+        justify-content: space-between;
+    }
+
+    .vantagens__container {
+        flex-direction: column-reverse;
+        padding: 3% 0;
+    }
+
+    .vantagens__texto {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .vantagens__btn {
+        margin: 1em 0;
+        padding: 10px 0;
+        font-size: 1em;
+    }
+
+    .vantagens__video {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .vantagens__descricao h4 {
+        font-size: 1.6rem;
+        text-shadow: 0px 2px 5px black
+    }
+
+    .vantagens__descricao p {
+        font-size: 1rem;
+    }
+}
